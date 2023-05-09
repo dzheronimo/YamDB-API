@@ -28,7 +28,10 @@
 + Django 3.2
 + Django REST framework 3.12
 + Simple JWT
-+ SQLite3
++ PostgreSQL
++ gunicorn
++ Docker (Docker-compose)
++ Nginx
 
 ## Распаковка проекта
 
@@ -103,6 +106,15 @@ Request:
 
 ###### Студенты курса "Python-разработчик" от Яндекс-Практикума
 
++ [Dzheronimo](https://github.com/dzheronimo)
+
+```text
+система регистрации и аутентификации,
+права доступа,
+работа с токеном,
+система подтверждения через e-mail
+```
+
 + [Aster111](https://github.com/Aster111)
 + [Vas1levs47](https://github.com/Vas1levs47)
 
@@ -115,13 +127,4 @@ Request:
 комментариев,
 рейтинга произведений
 импорт данных из csv файлов
-```
-
-+ [Dzheronimo](https://github.com/dzheronimo)
-
-```text
-система регистрации и аутентификации,
-права доступа,
-работа с токеном,
-система подтверждения через e-mail
 ```
