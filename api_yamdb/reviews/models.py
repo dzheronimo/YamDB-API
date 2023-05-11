@@ -24,12 +24,11 @@ class Category(BaseModel):
 
 
 class Genre(BaseModel):
-    GENRES = [
-        ('FANTASTIC', 'фантастика'),
-        ('THRILLER', 'Триллер')
-    ]
-    title = models.CharField(max_length=50, choices=GENRES)
+    name = models.CharField(max_length=50, unique=True)
     slug = models.SlugField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
 
 
 class Title(models.Model):
